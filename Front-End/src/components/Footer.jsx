@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function Footer() {
   return (
     <footer aria-label="Site Footer" className="bg-zinc-900">

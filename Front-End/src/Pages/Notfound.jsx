@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 export default function Notfound() {
+
     return (
-        <div class="grid h-screen place-content-center bg-white">
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+         class={"grid h-screen place-content-center bg-white"}>
             <div class="text-center">
                 <strong class="text-9xl font-black text-gray-200">404</strong>
 
@@ -20,7 +26,7 @@ export default function Notfound() {
                     Go Back Home
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
     )
 }
