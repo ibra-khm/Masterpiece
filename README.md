@@ -1,1 +1,1 @@
-# having issues with the main branch so the Frontend is in a branch called front-end
+# having issues with the main branch so the Frontend is on a seperate branch on this repo
